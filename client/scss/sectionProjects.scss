@@ -1,0 +1,28 @@
+
+$circleBorder: solid #a63940 4px;
+
+#sectionProjects{
+  height: 100%;
+  width: 100%;
+
+  #knabba{
+    height: 20%;
+    width: 10%;
+    border: $circleBorder;
+    border-radius: 50%;
+  }
+
+  #carischApp{
+    height: 20%;
+    width: 10%;
+    border: $circleBorder;
+    border-radius: 50%;
+  }
+
+  #curling{
+    height: 20%;
+    width: 10%;
+    border: $circleBorder;
+    border-radius: 50%;
+  }
+}

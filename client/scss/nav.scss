@@ -1,0 +1,32 @@
+
+$linkColor: #245580;
+
+nav{
+  position: fixed;
+  height: 12%;
+  width: 100%;
+
+  #links{
+    position: relative;
+    height: 100%;
+    width: 30%;
+    text-align: center;
+    float: right;
+
+    ul{
+
+      li{
+        list-style-type: none;
+        display: inline;
+        padding-right: 5%;
+
+
+        a{
+          text-decoration: none;
+          font-size: 1.6em;
+          color: $linkColor;
+        }
+      }
+    }
+  }
+}

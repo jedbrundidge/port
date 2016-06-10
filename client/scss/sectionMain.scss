@@ -1,0 +1,9 @@
+
+$mainBG: '../images/desk-wallpaper-1920x1080.jpg';
+
+#sectionMain{
+  height: 100%;
+  width: 100%;
+  background: url($mainBG) no-repeat 50% 50% fixed;
+  background-size: 100% 100%;
+}

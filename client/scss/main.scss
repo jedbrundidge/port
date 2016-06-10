@@ -1,0 +1,19 @@
+@import "nav";
+@import "sectionAbout";
+@import "sectionContact";
+@import "sectionProjects";
+@import "nameSVG";
+@import "sectionMain";
+
+
+html, body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  height: 100%;
+  width: 100%;
+}
+
+a{
+  font-family: 'Raleway', sans-serif;
+}
