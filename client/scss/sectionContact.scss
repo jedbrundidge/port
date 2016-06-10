@@ -9,6 +9,34 @@ $contactBG: '../images/FromAwesomeBackgroundsDotCom-Globe.JPG';
   text-align: center;
   font-family: 'Raleway', sans-serif;
 
+  #message{
+    position: relative;
+    top: 38%;
+    left: 36%;
+    width: 27%;
+    border-bottom: solid black thin;
+  }
+
+  #address{
+    position: relative;
+    font-size: 1.5em;
+    top: 42.5%;
+    right: 13%;
+  }
+
+  #email{
+    position: relative;
+    font-size: 1.5em;
+    top: 26%;
+  }
+
+  #phone{
+    position: relative;
+    font-size: 1.5em;
+    top: 13.9%;
+    left: 12%;
+  }
+
   h1{
     margin: 0;
   }

@@ -37,6 +37,7 @@ nav{
     width: 30%;
     text-align: center;
     float: right;
+    top: 4%;
 
     ul{
 
@@ -59,7 +60,6 @@ nav{
         a:hover{
           color: $linkHoverColor;
           text-decoration: none !important;
-          @include transform(scale(1.3));
         }
 
         a:after{
