@@ -6,6 +6,33 @@
 @import "sectionMain";
 
 
+@mixin transition($transition...){
+  -moz-transition: $transition;
+  -o-transition: $transition;
+  -webkit-transition: $transition;
+  transition: $transition;
+}
+
+@mixin  transform($transform...){
+  -moz-transform: $transform;
+  -o-transform: $transform;
+  -webkit-transform: $transform;
+  transform: $transform;
+}
+
+@mixin perspective($perspective...){
+  -moz-perspective: $perspective;
+  -webkit-perspective: $perspective;
+  -o-perspective: $perspective;
+  perspective: $perspective;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
 html, body{
   margin: 0;
   padding: 0;

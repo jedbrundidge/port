@@ -1,9 +1,20 @@
 
 $circleBorder: solid #a63940 4px;
+$projectsBG: '../images/comp_keyboard_gs.jpg';
+$knabbaBG: '../images/projects/knabba/KnabbaMainScreen.png';
 
 #sectionProjects{
   height: 100%;
   width: 100%;
+  background: url($projectsBG) no-repeat 50% 50% fixed;
+  background-size: 100% 100%;
+  text-align: center;
+  position: relative;
+
+  h1{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+  }
 
   #knabba{
     height: 20%;
