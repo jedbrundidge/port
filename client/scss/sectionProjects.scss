@@ -21,6 +21,18 @@ $knabbaBG: '../images/projects/knabba/KnabbaMainScreen.png';
     width: 10%;
     border: $circleBorder;
     border-radius: 50%;
+
+      .knabbaBG{
+        opacity: .5;
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+      }
+
+      .knabbaBG:hover{
+        opacity: 100;
+        cursor: pointer;
+      }
   }
 
   #carischApp{
@@ -28,18 +40,24 @@ $knabbaBG: '../images/projects/knabba/KnabbaMainScreen.png';
     width: 10%;
     border: $circleBorder;
     border-radius: 50%;
+
+    .appBG{
+      opacity: .5;
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+    }
+
+    .appBG:hover{
+      opacity: 100;
+      cursor: pointer;
+    }
   }
 
   #curling{
     height: 20%;
     width: 10%;
     border: $circleBorder;
-    border-radius: 50%;
-  }
-
-  img{
-    height: 100%;
-    width: 100%;
     border-radius: 50%;
   }
 }

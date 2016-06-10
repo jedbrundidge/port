@@ -1,5 +1,7 @@
 
 $aboutBG: '../images/computer-background.jpg';
+$circleBorder: solid #a63940 4px;
+
 
 #sectionAbout{
   height: 100%;
@@ -9,6 +11,21 @@ $aboutBG: '../images/computer-background.jpg';
   text-align: center;
   font-family: 'Raleway', sans-serif;
   position: relative;
+
+  #picture{
+    height: 30%;
+    width: 15%;
+    border: $circleBorder;
+    border-radius: 50%;
+  }
+
+  #contentArea{
+    height: 40%;
+    width: 50%;
+    background-color: white;
+    opacity: .3;
+    border-radius: 5%;
+  }
 
   h1{
     margin: 0;
