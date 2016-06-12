@@ -13,19 +13,30 @@ $circleBorder: solid #a63940 4px;
   position: relative;
 
   #picture{
-    height: 30%;
-    width: 15%;
+    height: 35%;
+    width: 18%;
     border: $circleBorder;
     border-radius: 50%;
+    position: relative;
+    left: 41%;
+    top: 5%;
   }
 
   #contentArea{
-    height: 40%;
-    width: 50%;
+    height: 50%;
+    width: 55%;
     background-color: white;
     opacity: .3;
     border-radius: 5%;
-    color: black;
+    position: relative;
+    top: 9%;
+    left: 23%;
+  }
+
+  #pictureBG {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
   }
 
   h1{
